@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 import {HttpModule} from '@angular/http';
 import { AppComponent } from './app.component';
 import { Service } from './test.service';
+import { MergeComponent } from './merge/merge.component';
 
 @NgModule({
   declarations: [
-    AppComponent, Service
+    AppComponent, Service, MergeComponent
   ],
   imports: [
     BrowserModule, HttpModule
